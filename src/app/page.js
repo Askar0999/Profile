@@ -1,8 +1,18 @@
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
+
+
+
+
 export default function Home() {
     return (
         <main>
-            <h1>Welcome to Profile</h1>
-            <p>Your secure space for communication.</p>
+            <Header />
+            <section className="p-4">
+                <h2>Добро пожаловать в KeySharer!</h2>
+                <p>Ваше безопасное пространство для общения.</p>
+            </section>
+            <Footer />
         </main>
-    )
+    );
 }
